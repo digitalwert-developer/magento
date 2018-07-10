@@ -405,16 +405,6 @@ class Mage_Core_Model_Session_Abstract_Varien extends Varien_Object
     }
 
     /**
-     * Use password creation timestamp in validator key
-     *
-     * @return bool
-     */
-    public function useValidateSessionPasswordTimestamp()
-    {
-        return true;
-    }
-
-    /**
      * Retrieve skip User Agent validation strings (Flash etc)
      *
      * @return array
